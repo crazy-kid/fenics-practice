@@ -1,0 +1,10 @@
+/tmp/tmppg2r9g9a/dolfin_expression_f32b7d1906978c98d87bdc5267074a06.cpp: In member function 'virtual void dolfin::dolfin_expression_f32b7d1906978c98d87bdc5267074a06::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const':
+/tmp/tmppg2r9g9a/dolfin_expression_f32b7d1906978c98d87bdc5267074a06.cpp:61:26: error: too few arguments to function 'void dolfin::log(int, std::string, ...)'
+   61 |           values[0] = log(2 + 7*(pow(pow(x[0] - 0.5,2) + pow(x[1] - 0.5,2),0.5) > 0.2));
+      |                       ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/rick/miniconda3/envs/fenics/include/dolfin/common/Array.h:32,
+                 from /home/rick/miniconda3/envs/fenics/include/dolfin/function/Expression.h:27,
+                 from /tmp/tmppg2r9g9a/dolfin_expression_f32b7d1906978c98d87bdc5267074a06.cpp:13:
+/home/rick/miniconda3/envs/fenics/include/dolfin/log/log.h:103:8: note: declared here
+  103 |   void log(int debug_level, std::string msg, ...);
+      |        ^~~
